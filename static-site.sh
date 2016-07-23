@@ -1,3 +1,13 @@
+mkdir $1 && cd $1 && \
+mkdir scripts styles && \
+touch index.html scripts/main.js styles/main.css && \
+echo "<!DOCTYPE html>\n<html>" > index.html && \
+echo " <head>\n <title>My Website</title>\n </head>\n"
+
+
+
+
+
 echo "You did the thing"
 touch index.html
 echo "<!DOCTYPE html>" >> index.html
